@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+
+    // ⭐ important for migration
+    "allowJs": true,
+    "checkJs": false,
+
+    // ⭐ helps with React imports
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // keep these
+    "strict": true,
+    "skipLibCheck": true,
+
+    // optional (you can keep or remove)
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true
+  }
+}
